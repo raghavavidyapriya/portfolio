@@ -52,7 +52,7 @@ export const Data = [
         description:
             "Discovered a critical security vulnerability and received recognition from ISRO, July 2024",
         link:
-            "",
+            "https://drive.google.com/file/d/1dJXKYS6cBer82TA6N2LzD_gmL56iJy1p/view",
         bg:
             Achieve_BG6
     },
