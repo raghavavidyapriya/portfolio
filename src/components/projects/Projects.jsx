@@ -14,6 +14,45 @@ const Projects = () => {
             <span className="section__subtitle">My Hands-on Experience</span>
 
             <div className="projects__container container grid">
+
+                <div className="projects__content img__container project2">
+                    <div>
+                        <i className="uil uil-code-branch projects__icon"></i>
+                        <h3 className="projects__title">Agent Quask</h3>
+                    </div>
+                    <span className="projects__button" onClick={() => toggleTab(2)}>View More
+                        <i className="uil uil-arrow-right projects__button-icon"></i>
+                    </span>
+
+                    <div className={toggleState===2 ? "projects__modal active-modal": "projects__modal"}>
+                        <div className="projects__modal-content  img__container project2">
+                            <i onClick={()=>toggleTab(0)} className="uil uil-times projects__modal-close"></i>
+
+                            <h3 className="projects__modal-title">Agentic Product Support</h3>
+                            <p className="projects__modal-description">
+                                Agentic customer support system using CrewAI with 2 crews and 4 specialized agents, enabling multi-agent collaboration. Automatically identifies products via QR scan, generates hypotheses, and resolves queries using tools for manuals, websites, and with a custom Gemini-powered image analyzer.
+                            </p>
+
+                            <ul className="projects__modal-projects grid">
+
+                                <li className="projects__modal-project">                    
+                                    <i class="uil uil-check-circle projects__modal-icon">
+                                    </i>
+                                    <p className="projects__modal-info">Built a multi-agent AI system for intelligent product support of household products, consisting of 2 crews, 3 tools, and 4 specialized agents in a coordinated workflow flow powered by advanced Agentic Retrieval Augmented Generation.
+                                    </p>
+                                </li>
+
+                                <li className="projects__modal-project">                    
+                                    <i class="uil uil-check-circle projects__modal-icon">
+                                    </i>
+                                    <p className="projects__modal-info">Integrated FastAPI backend with React JS and Material UI, leveraging Google Gemini Flash 2.0 LLM with a 1 million token context window, enabling accurate, context-rich product support interactions for seamless user query resolution.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="projects__content img__container project1">
                     <div>
                         <i className="uil uil-brackets-curly projects__icon"></i>
@@ -63,55 +102,6 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="projects__content img__container project2">
-                    <div>
-                        <i className="uil uil-code-branch projects__icon"></i>
-                        <h3 className="projects__title">Intrusion Prediction</h3>
-                    </div>
-                    <span className="projects__button" onClick={() => toggleTab(2)}>View More
-                        <i className="uil uil-arrow-right projects__button-icon"></i>
-                    </span>
-
-                    <div className={toggleState===2 ? "projects__modal active-modal": "projects__modal"}>
-                        <div className="projects__modal-content  img__container project2">
-                            <i onClick={()=>toggleTab(0)} className="uil uil-times projects__modal-close"></i>
-
-                            <h3 className="projects__modal-title">Intrusion Detection Prediction</h3>
-                            <p className="projects__modal-description">Developed an intrusion detection system using machine learning, achieving 94% accuracy in detecting cyber attacks through advanced preprocessing and model optimization.
-                            </p>
-
-                            <ul className="projects__modal-projects grid">
-                                <li className="projects__modal-project">                    
-                                    <i class="uil uil-check-circle projects__modal-icon">
-                                    </i>
-                                    <p className="projects__modal-info">Developed a cybersecurity solution using machine learning to predict cyber attacks based on network packet data.
-                                    </p>
-                                </li>
-
-                                <li className="projects__modal-project">                    
-                                    <i class="uil uil-check-circle projects__modal-icon">
-                                    </i>
-                                    <p className="projects__modal-info">Applied preprocessing techniques (EDA, cleaning, sampling, scaling, and visualization) to prepare the dataset, reducing data redundancy by 39%.
-                                    </p>
-                                </li>
-
-                                <li className="projects__modal-project">                    
-                                    <i class="uil uil-check-circle projects__modal-icon">
-                                    </i>
-                                    <p className="projects__modal-info">Used Naive Bayes, Random Forest, and hyperparameter-tuned XGBoost models, achieving an average accuracy of 94%.
-                                    </p>
-                                </li>
-
-                                <li className="projects__modal-project">                    
-                                    <i class="uil uil-check-circle projects__modal-icon">
-                                    </i>
-                                    <p className="projects__modal-info">Conducted hyperparameter tuning and cross-validation to enhance model performance, with XGBoost outperforming other classifiers.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
                 <div className="projects__content img__container project3">
                     <div>

@@ -26,7 +26,7 @@ const Contact = () => {
                     </a>
                 </a>
                 <a href="https://github.com/raghavavidyapriya"   target="_blank" rel="noopener noreferrer" className="contact__card img__container instagram">
-                    <i className="uil uil-instagram-alt contact__card-icon"></i>
+                    <i className="uil uil-github contact__card-icon"></i>
                     <h3 className="contact__card-title">GitHub</h3>
                     <span className="contact__card-data">@raghavavidyapriya</span>
 

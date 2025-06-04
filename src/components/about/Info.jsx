@@ -14,10 +14,10 @@ const Info = () => {
             <div className="about__box  img__container about2">
                 <i class="uil uil-trophy"></i>
                 <h3 className="about__title">Hackathons</h3>
-                    <span className="about__subtitle">2 Won
+                    <span className="about__subtitle">3 Won
                     </span>
                     <br></br>
-                    <span className="about__subtitle">3 Finalists
+                    <span className="about__subtitle">4 Finalists
                     </span>
             </div>
 
@@ -25,7 +25,7 @@ const Info = () => {
                 <i class="uil uil-monitor"></i>
                 <h3 className="about__title">Completed</h3>
                     <span className="about__subtitle">
-                        10+ Projects
+                        20+ Projects
                     </span>
             </div>
         </div>

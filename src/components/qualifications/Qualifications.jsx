@@ -42,7 +42,7 @@ const Qualifications = () => {
                             </div>
                             <div className="qualification__marks">
                                 <i className="uil uil-file-check-alt"></i> 
-                                {" "} CGPA - 8.95/10
+                                {" "} CGPA - 9.01/10
                             </div>
                         </div>
 

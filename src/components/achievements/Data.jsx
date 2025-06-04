@@ -4,20 +4,33 @@ import COOKR2024_IMG from "../../assets/achievements/COOKR2024_IMG.png"
 import IITBHU2024_IMG from "../../assets/achievements/IITBHU2024_IMG.png"
 import GDSC2WIN2023_IMG from "../../assets/achievements/GDSC2WIN2023_IMG.png"
 import TRSI2023_IMG from "../../assets/achievements/TRSI2023_IMG.jpg"
+import Hyperverge_IMG from "../../assets/achievements/hyperverge_img.png"
 import Achieve_BG1 from "../../assets/backgrounds/achievement1.jpg"
 import Achieve_BG2 from "../../assets/backgrounds/achievement2.jpg"
 import Achieve_BG3 from "../../assets/backgrounds/achievement3.jpg"
 import Achieve_BG4 from "../../assets/backgrounds/achievement4.jpg"
 import Achieve_BG5 from "../../assets/backgrounds/achievement5.jpg"
 import Achieve_BG6 from "../../assets/backgrounds/achievement6.jpg"
+import Achieve_BG7 from "../../assets/backgrounds/achievement7.png"
 
 export const Data = [
+        {
+        id: 5,
+        image: Hyperverge_IMG,
+        title: "Runners",
+        description: 
+            "Runner-up in the HyperVerge AI Hackathon, received a cash prize of 15,000 INR, April 2025",
+        link: 
+            "https://www.linkedin.com/posts/m-sc-artificial-intelligence-and-machine-learning-cit_citpride-aiml-hackathonrunners-activity-7323571317335588864-3pVe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFclFKABtarcM-aWDRtH08UI7xQT40O3YDU",
+        bg:
+            Achieve_BG7
+    },
     {
         id: 4,
         image: COOKR2024_IMG,
         title: "Winners",
         description: 
-            "Byte Sized Brainstorm Hackathon conducted by Cookr Pvt. Ltd. at Coimbatore, April 2024",
+            "First place with a cash prize of 25,000 INR in the Byte Sized Brainstorm Hackathon hosted by Cookr, April 2024",
         link: 
             "https://www.linkedin.com/posts/m-sc-artificial-intelligence-and-machine-learning-cit_hackathonwinners-artificialintelligence-machinelearning-activity-7188907791867097088-ymdw",
         bg:
@@ -39,7 +52,7 @@ export const Data = [
         image: GDSC2WIN2023_IMG,
         title: "Second Place",
         description: 
-            "Googleathon 2.0 organized by the Google Developers Student Club at SNS College, November 2023",
+            "Runner-up and won 5,000 INR in Googleathon 2.0, organized by the Google Club (GDSC), November 2023",
         link: 
             "https://www.linkedin.com/posts/m-sc-artificial-intelligence-and-machine-learning-cit_googleathon-gdscsnsce-ai-activity-7133136868631588866-m017",
         bg:

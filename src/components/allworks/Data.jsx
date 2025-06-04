@@ -21,8 +21,8 @@ export const workDetails = [
     },
     {
         id : 5,
-        title: "Protection Online",
-        link:"https://github.com/raghavavidyapriya/protection-online",
+        title: "Agent Quask",
+        link:"https://github.com/raghavavidyapriya/AgenticProductSupport",
         category: "AI & ML",
         bg: proj5
     },
